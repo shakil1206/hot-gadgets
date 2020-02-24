@@ -13,7 +13,6 @@
 
 .carousel-item{
     padding:10px 60px;
-    background-color: lightgray;
     border-radius: 5px;
 }
 
@@ -68,6 +67,29 @@
     border-radius: 10px;
 }
 
+
+.card:hover{
+   animation: animate 2s linear .30s 1 alternate;
+
+}
+@keyframes animate{
+    0%{
+        top: 0;
+    }
+    25%{
+        top: -10px;
+    }
+    50%{
+        top: -20px;
+    }
+    75%{
+        top: -10px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
 .card img{
     padding: 20px 30px;
 }
@@ -111,7 +133,7 @@ footer{
 
 .subscribe{
     height: 300px;
-    background-color: lightsteelblue;
+    background-color:lightgray;
     border-radius: 10px;
 }
 
