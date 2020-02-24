@@ -76,3 +76,45 @@
     border-top: none;
     background-color: #fff;
 }
+
+.catagorie{
+    text-align: center;
+}
+
+.catagorie hr{
+    width: 140px;
+    border: 3px solid orange;
+    border-radius: 80px;
+}
+
+
+.image-box-shadow{
+    width: 200px;
+    box-shadow: 5px 5px 20px lightgray;
+    border-radius: 30px 5px;
+    padding: 30px;
+    margin: 30px 30px;
+    text-align: center;
+}
+
+
+.image-box-shadow h5{
+    margin-top: 5px;
+}
+
+footer{
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px 0;
+}
+
+.subscribe{
+    height: 300px;
+    background-color: lightsteelblue;
+    border-radius: 10px;
+}
+
+.subscribe button{
+    margin-top: 10px;
+}
